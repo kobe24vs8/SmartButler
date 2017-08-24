@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改密码"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/btn_old_passward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="旧密码"
+        android:inputType="numberPassword"/>
+
+    <EditText
+        android:id="@+id/btn_new_passward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="新密码"
+        android:inputType="numberPassword"/>
+
+    <EditText
+        android:id="@+id/btn_input_passward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="再次输入"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btn_modify_passward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="修改密码"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/btn_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你的邮箱" />
+
+    <Button
+        android:id="@+id/btn_forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="忘记密码"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_user"
+            android:background="@drawable/edittext_bg"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="用户名"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et_age"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="年龄"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="简介"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_girl"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="15dp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="密码"
+            android:password="true"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="再输入一次"
+            android:password="true"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="邮箱"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册成功需要前往邮箱验证，否则无法登录"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnRegistered"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:background="@drawable/button_bg"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
